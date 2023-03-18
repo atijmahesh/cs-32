@@ -1,0 +1,34 @@
+﻿Atij Mahesh
+905954423
+CS 32 Homework 2
+2) 
+1: R: 5 C: 3
+2: R: 6 C: 3
+3: R: 4 C: 3
+4: R: 4 C: 2
+5: R: 4 C: 1
+6: R: 3 C: 1
+7: R: 2 C: 1
+8: R: 1 C: 1
+9: R: 1 C: 2
+10: R: 3 C: 3
+11: R: 5 C: 4
+12: R: 5 C: 5
+
+
+4) 
+1: R: 5 C: 3
+2: R: 5 C: 4
+3: R: 4 C: 3
+4: R: 6 C: 3
+5: R: 5 C: 5
+6: R: 3 C: 3
+7: R: 4 C: 2
+8: R: 5 C: 6
+9: R: 4 C: 5
+10: R: 4 C: 1
+11: R: 5 C: 7
+12: R: 3 C: 5
+
+
+BFS (Breadth-First Search) and DFS (Depth-First Search) differ from one another in a few crucial ways. The key difference between the two lies in the data structure they use. BFS uses a queue to store nodes, while DFS uses a stack. This leads to different ways of exploring the graph. In DFS, the algorithm prioritizes visiting the deepest coordinates first, before backtracking. If the path to the target node is in a straight line, DFS will follow that path until it reaches the end of a dead-end. This is because the stack data structure first pops coordinates most recently visited, and older ones (closer to the starting point) later. On the other hand, BFS explores the nearest coordinates first and works its way outward. This is due to the queue data structure, which pops older coordinates, and looks at newer ones (farther from the starting point) later. The result of this is that BFS often finds a shorter path to the target node as it avoids going down paths that lead to dead-ends, unlike DFS.
