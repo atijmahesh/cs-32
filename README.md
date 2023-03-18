@@ -1,4 +1,4 @@
-# UCLA CS 31 Projects
+# UCLA CS 32 Projects and Homework
 
 ## Overview
 Taught by Professor Smallberg, here are my course projects from Winter 2023.
